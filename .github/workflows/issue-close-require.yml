@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: need reproduce
-        uses: actions-cool/issues-helper@v1.7
+        uses: actions-cool/issues-helper@v1.12
         with:
           actions: 'close-issues'
           labels: '🤔 Need Reproduce'

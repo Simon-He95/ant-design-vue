@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Usage
         if: github.event.label.name == 'Usage'
-        uses: actions-cool/issues-helper@v1.2
+        uses: actions-cool/issues-helper@v1.12
         with:
           actions: 'create-comment, close-issue'
           issue-number: ${{ github.event.pull_request.number }}
