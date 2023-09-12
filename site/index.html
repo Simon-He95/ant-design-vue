@@ -59,6 +59,16 @@
       gtag('config', 'UA-151755889-1');
     </script>
     <script type="text/javascript" src="https://cdn.wwads.cn/js/makemoney.js" async></script>
+    <script>
+      document.addEventListener('keydown', e => {
+        if ((e.metaKey || e.ctrlKey) && e.key === 'c') {
+          const selection = document.getSelection();
+          if (!selection || !selection.toString()) return;
+          const text = selection.toString();
+          window.parent.postMessage({ eventType: 'copy', text }, '*');
+        }
+      });
+    </script>
     <!-- <div
       class="surveybyantdv"
       data-sf-id="63ad5912f3e10066"
