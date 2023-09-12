@@ -46,7 +46,7 @@
     "pub-with-ci": "npm run version & npm run collect-token-statistic & npm run token-meta && node antd-tools/cli/run.js pub-with-ci",
     "prepublishOnly": "node antd-tools/cli/run.js guard",
     "pre-publish": "npm run generator-webtypes",
-    "prettier": "prettier -c --write **/*",
+    "prettier": "prettier -c --write **/* --cache",
     "pretty-quick": "pretty-quick",
     "dist": "node --max_old_space_size=8192 antd-tools/cli/run.js dist",
     "lint": "npm run tsc && npm run lint:demo && npm run lint:md && npm run lint:script && npm run lint:site",
