@@ -1,5 +1,5 @@
 [build.environment]
   NODE_VERSION = "16"
 [build]
-  publish = "playground/dist"
-  command = "npx pnpm i && pnpm site"
+  publish = "site/dist"
+  command = "npm run site"
