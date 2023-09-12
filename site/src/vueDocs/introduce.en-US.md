@@ -5,7 +5,7 @@ Following the Ant Design specification, we developed a Vue UI library `antd` tha
 <div class="pic-plus">
   <img width="150" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" />
   <span>+</span>
-  <img width="160" src="https://qn.antdv.com/vue.png" />
+  <img width="160" src="https://aliyuncdn.antdv.com/vue.png" />
 </div>
 
 <style>
@@ -46,7 +46,7 @@ You can subscribe to this feed for new version notifications: <https://github.co
 
 ### Using npm or yarn
 
-**We recommend using npm or yarn to install**，it not only makes development easier，but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
+**We recommend using npm or yarn to install**, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
 
 ```bash
 $ npm install ant-design-vue@4.x --save
@@ -56,7 +56,7 @@ $ npm install ant-design-vue@4.x --save
 $ yarn add ant-design-vue@4.x
 ```
 
-If you are in a bad network environment，you can try other registries and tools like [cnpm](https://github.com/cnpm/cnpm).
+If you are in a bad network environment, you can try other registries and tools like [cnpm](https://github.com/cnpm/cnpm).
 
 ### Import in Browser
 
