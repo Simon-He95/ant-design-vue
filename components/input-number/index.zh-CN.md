@@ -52,7 +52,7 @@ coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*1uH-R5kLAMIAAA
 
 ## 方法
 
-| 名称    | 描述     |
+| 方法名  | 描述     |
 | ------- | -------- |
 | blur()  | 移除焦点 |
 | focus() | 获取焦点 |

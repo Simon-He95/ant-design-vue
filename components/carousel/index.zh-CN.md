@@ -30,7 +30,7 @@ coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*a-58QpYnqOsAAA
 
 ## 方法
 
-| 名称                           | 描述                                              | 版本 |
+| 方法名                         | 描述                                              | 版本 |
 | ------------------------------ | ------------------------------------------------- | ---- |
 | goTo(slideNumber, dontAnimate) | 切换到指定面板, dontAnimate = true 时，不使用动画 |      |
 | next()                         | 切换到下一面板                                    |      |
